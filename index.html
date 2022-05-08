@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle Estacionamento</title>
+</head>
+<body>
+    <div class="grupo">
+        <div class="wrapper">
+            <div class="cadastro">
+                <h1>Tabela de Preços:</h1>
+                <div class="preco">R$: 10,00 a hora.<br>Preço mínimo: R$: 10,00</div>
+                <h1>Cadastro de Veículos</h1>
+                <label for="modelo">Modelo do Veiculo</label>
+                <input type="text" id="modelo" required>
+                <label for="placa">Placa do Veiculo</label>
+                <input type="text" id="placa" required>
+                <input type="button" id="estacionar" value="Estacionar">
+            </div>
+            <div class="contador">Número de Clientes: 0</div>
+        </div>
+            
+
+            <div class="patio">
+                <h1>Patio</h1>
+
+                <div class="fila">
+                    <div class="item">
+                                <h2>Vaga 01</h2>
+                                 <div id="vaga1"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 02</h2>
+                                 <div id="vaga2"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 03</h2>
+                                 <div id="vaga3"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 04</h2>
+                                 <div id="vaga4"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 05</h2>
+                                 <div id="vaga5"></div>
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="item">
+                                <h2>Vaga 06</h2>
+                                 <div id="vaga6"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 07</h2>
+                                 <div id="vaga7"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 08</h2>
+                                 <div id="vaga8"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 09</h2>
+                                 <div id="vaga9"></div>
+                    </div>
+                    <div class="item">
+                                <h2>Vaga 10</h2>
+                                 <div id="vaga10"></div>
+                    </div>
+                    
+                </div>
+            </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
